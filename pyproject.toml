@@ -1,0 +1,18 @@
+[project]
+name = "image_prompt_helper"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "dspy>=3.0.3",
+    "python-dotenv>=1.1.1"
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+    "wheel",              
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
